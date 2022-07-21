@@ -1,0 +1,79 @@
+:root{
+    --first: rgb(26, 26, 99);
+    --second:rgb(224, 221, 221);
+    --third: rgb(126, 22, 22);
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 5px solid var(--first);
+    padding-bottom: 10px;
+}
+
+.nav-class{
+    height: 70px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    align-items: center;
+    padding-left: 500px;
+    
+
+}
+
+.nav-class a{
+    text-decoration: none;
+}
+
+.nav-class a:hover{
+    transition-duration: 0.2s;
+    color: var(--third);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    transform: translate(50%, 70%) ;
+    /* border-top:5px solid rgb(30, 30, 68); */
+    border-top:5px solid var(--first);
+    padding:10px;
+    line-height:2;
+    width: 50%;
+    align-content: center;
+    flex-direction: row;
+    
+}
+ .training a:link{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: large;
+    color: var(--third);
+    font-size: larger;
+    
+}
+.training a:hover{
+    color: var(--third) ;
+    border-radius: 25%;
+    transition-duration: 0.2s;
+} 

@@ -1,0 +1,231 @@
+
+
+:root{
+    --first: rgb(26, 26, 99);
+    --second:rgb(224, 221, 221);
+    --third: rgb(126, 22, 22);
+    --font-family: 'roboto';
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 2;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: var(--font);
+}
+
+header{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 5px solid var(--first);
+    padding-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.grid{
+    display: grid;
+    gap: 9.6rem;
+    row-gap: 9.6rem;
+   column-gap:6.4rem;
+   align-items: center;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+.grid--2--cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid--1--cols{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.nav-class{
+    height: 70px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+    align-items: center;
+    padding-left: 500px; 
+    
+
+}
+/* @media screen and (max-width: 768px){
+    .nav-class{
+        display: none;
+    }
+} */
+
+.nav-class a{
+    text-decoration: none;
+}
+
+.nav-class a:hover{
+    transition-duration: 0.2s;
+    color: var(--third);
+}
+
+
+.sect1{
+    padding: 0 9.6rem;
+
+}
+    
+/* @media screen and (max-width: 768px){
+    .sect1{
+        display: flex;
+        flex-direction: column;
+        background-color: brown; */
+
+
+.GD{
+    max-width: 15rem;
+    margin: 3.2rem;
+    padding: 0 3.2rem; 
+    /* height: 4rem; */
+    color: var(--second);
+    background-color: var(--first);
+    margin: 9.6 0;
+} 
+
+
+.weeks{
+    max-width: 2rem;
+    margin: 3.2rem;
+    padding: 0 3.2rem; 
+    /* height: 4rem; */
+    color: var(--second);
+    background-color: var(--first);
+    margin: 9.6 0;
+}
+
+img{
+    border-radius: 50%;
+    /* justify-content: center;
+    align-items: center; */
+}
+.sect2{
+    border-top: 5px solid var(--first);
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    /* height: 50vh; */
+    /* display: flex;
+    flex-direction: row; */
+    font-family: sans-serif;
+    font-size: larger;
+    /* justify-content: center;
+    align-items: center; */
+    padding-top: 70px;
+} 
+
+@media screen and (max-width: 768px){
+    .grid--2--cols{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.button1{
+    width: 6%;
+    height:12%;
+    font-weight: bolder;
+    border-radius: 25%;
+    background-color: var(--second);
+    color: var(--first);
+    border-color: var(--first);
+    cursor: poin
+    
+    ter;
+}
+.button1:hover{
+    width: 7%;
+    height:15%;
+    background-color: gray;
+    color: var(--first);
+    border: 2px solid var(--first);
+}
+
+.button2{
+    /* width:8%; */
+    /* height:18%; */
+    font-weight: bolder;
+    border-radius: 25%;
+    background-color: var(--second);
+    color: var(--first);
+    border: 2px solid var(--first);
+}
+
+.button2:hover{
+    width:10%;
+    height:20%;
+    background-color: gray;
+    color: var(--first);
+    border: 2px solid var(--first);
+    cursor: pointer;
+}
+
+.eligibility{
+    border-top: 5px solid var(--first);
+    padding: 30px;
+    /* background-color: var(--third); */
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 50vh;
+    /* display: flex;
+
+
+    flex-direction: row-reverse; */
+    font-size: larger;
+    /* gap: 50px; */
+}
+
+
+.eligible{
+    padding-left: 20px;
+}
+
+.EL{
+    height: 50px;
+    max-width:20%;
+    margin-top: 40px;
+    background-color: var(--first);
+    color: var(--second);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button3{
+    width:8%;
+    height:10%;
+    font-weight: bolder;
+    border-radius: 25%;
+    background-color: var(--second);
+    color: var(--first);
+    border: 2px solid var(--first);
+}
+.button3:hover{
+    width:10%;
+    height:11%;
+    background-color: gray;
+    color: var(--first);
+    border: 2px solid var(--first);
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 768px){
+    .sect1{
+        display: flex;
+        flex-direction: column;
+        background-color: brown;
+    }
+} */
